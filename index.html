@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	  <title>初めてのブートストラップ</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link href="/font/css/open-iconic-bootstrap.css" rel="stylesheet">
   </head>
   <body>
     ＜div class="container"＞
     hellow
     </div>
 
-    <div class="btn-toolbar" role="toolbar">
-	<div class="btn-group">
-		<span class="oi" data-glyph="book"></span>
-		<span class="oi" data-glyph="tag"></span>
-		<span class="oi" data-glyph="tags"></span>
-	</div>
+    <div class="btn-group">
+	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+		ドロップダウン
+		<span class="caret"></span>
+	</button>
+	<ul class="dropdown-menu" role="menu">
+		<li role="presentation"><a role="menuitem" tabindex="-1" href="#">リンクのリスト１</a></li>
+		<li role="presentation"><a role="menuitem" tabindex="-1" href="#">リンクのリスト２</a></li>
+		<li role="presentation"><a role="menuitem" tabindex="-1" href="#">リンクのリスト３</a></li>
+	</ul>
+</div>
 </div>
   </body>
 </html>
